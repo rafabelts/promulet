@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.navUl {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.navText {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+.navText:hover {
+  color: #2a66ff;
+}
+
+.heroSection {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  position: relative;
+}
+
+.title {
+  width: 40rem;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+}
+
+.infoImage {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heroText {
+  margin-top: 5rem;
+  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 25px;
+  color: #000;
+}
+
+.heroImage {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.misionYvision {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  gap: 10rem;
+  justify-content: center;
+}
+
+.card {
+  width: 659px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.cardTitle {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cardContent {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.lastText {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  color: #0257ed;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 35px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  background-color: #2452c9;
+}
+
+.footerUl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.8rem;
+}
+
+.footerLi {
+  display: flex;
+}
+
+.footerText {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.iconText {
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+.footerText,
+.iconText {
+  color: white;
+}
