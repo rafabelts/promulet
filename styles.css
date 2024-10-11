@@ -28,7 +28,7 @@ nav {
   color: #2a66ff;
 }
 
-.heroSection {
+/*.heroSection {
   display: flex;
   margin-top: 2rem;
   background-color: #fff;
@@ -36,6 +36,37 @@ nav {
   justify-content: space-between;
   padding-left: 4rem;
   position: relative;
+}
+*/
+
+.heroSection img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .heroSection img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroSection img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .title {
@@ -64,10 +95,47 @@ nav {
   color: #000;
 }
 
-.heroImage {
+/*.heroImage {
   object-fit: contain;
   max-width: 100%;
   height: auto;
+}
+
+*/
+.heroImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.heroSection img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .heroSection img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroSection img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .misionYvision {
